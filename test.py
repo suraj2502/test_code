@@ -16,7 +16,7 @@ h=99
 result= get_missing(a,n,l,h)
 print(result)"""
 
-class Solution(object):
+class get_missing(object):
     def findMissingRanges(self, nums, lower, upper):
         def getRange(lower, upper):
             if lower == upper:
@@ -41,4 +41,4 @@ class Solution(object):
 
 if __name__ == "__main__":
 
-    print (Solution().findMissingRanges([0, 1, 3, 50, 75], 0, 99))
+    print (get_missing().findMissingRanges([0, 1, 3, 50, 75], 0, 99))
