@@ -2,4 +2,4 @@
 
 to run script run below command
 
-    python3 main.py
+    python3 test.py
